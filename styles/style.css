@@ -118,3 +118,97 @@ main{
     text-align: justify;
 }
 
+
+
+/* RECIPIES SECTION  */
+
+
+.recipi-section{
+    margin-bottom: 100px;
+}
+
+
+.recipi-content{
+    text-align: center;
+}
+
+
+.recipi-content h2,p{
+    padding-bottom: 20px;
+}
+
+
+.recipi-item-container{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+
+
+}
+
+
+.box-one{
+    /* width: 450px; */
+    /* height: 400px; */
+    box-shadow: 4px 4px 10px rgb(167, 167, 167);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box-one img,h3,p{
+    margin-bottom: 20px;
+}
+
+.box-two{
+    /* width: 450px; */
+    /* height: 400px; */
+    box-shadow: 4px 4px 10px rgb(167, 167, 167);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.box-two img,h3,p{
+    margin-bottom: 20px;
+}
+
+
+.number-section{
+    margin-bottom: 100px;
+    box-shadow: 4px 4px 10px rgb(167, 167, 167);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.number-container{
+     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 200px;
+    
+}
+.number-container h3{
+    font-size: 40px;
+}
+
+
+
+/* FOOTER  */
+
+
+footer{
+    background-color: black;
+    color: white;
+    height:100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer span{
+    color: orange;
+}
+
+footer h3{
+    color: rgb(80, 80, 80);
+    font-size:30px;
+}
